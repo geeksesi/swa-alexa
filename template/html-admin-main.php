@@ -1,4 +1,5 @@
 <div class="wrap">
+<<<<<<< HEAD
     <h2><?php _e('مدیریت افزونه رتبه الکسا', 'swa_alexa'); ?></h2>
     <p>شما می‌توانید توسط شورت‌کدهای این افزونه در نوشته‌ها و برگه‌ها رتبه الکسای سایت خود را نمایش دهید.</p>
     <h3>نمایش رتبه کشوری</h3>
@@ -17,4 +18,8 @@
         <strong>کاری از تیم برنامه نویسی <a href="http://sahandwebafzar.ir" target="_blank">سهند‌وب‌افزار</a>.</strong>
     </p>
     <hr>
+=======
+
+    <h2><?php _e('Manage Alexa Rank plugin', 'swa_alexa'); ?></h2>
+>>>>>>> b4f9a0f983ffd8131449f1144ccbd966c54e720d
 </div>

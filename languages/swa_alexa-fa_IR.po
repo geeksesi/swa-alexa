@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: swa_alexa-fa_IR\n"
+"POT-Creation-Date: 2017-10-23 19:35+0330\n"
+"PO-Revision-Date: 2017-10-23 19:37+0330\n"
+"Last-Translator: \n"
+"Language-Team: Sahand Web Afzar <hi@sahandwebafzar.ir>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template/html-admin-main.php:3
+msgid "Manage Alexa Rank plugin"
+msgstr "مدیریت افزونه رتبه الکسا"
+
+#: template/html-admin-setting.php:3
+msgid "Alexa Ranking plugin settings"
+msgstr "تنظیمات افزونه رتبه الکسا"

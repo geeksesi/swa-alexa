@@ -10,11 +10,16 @@ in every where in wordpress can call Three shorteCode to show your GlobalRank, L
 ```
 GlobalRank       :: [swa_alexa_country_global]
 LocalRank        :: [swa_alexa_country]
+<<<<<<< HEAD
 LocalCountryName :: [swa_alexa_country_name]
+=======
+LocalCountryIcon :: [swa_alexa_country_name]
+>>>>>>> b4f9a0f983ffd8131449f1144ccbd966c54e720d
 ```
 # created by
 [Sahand Web Afzar](https://sahandwebafzar.ir/)
 # License 
+<<<<<<< HEAD
 
 # افزونه وردپرس نمایش رتبه الکسا در نوشته‌ها و برگه‌ها 
 توسط این افزونه می‌تونید رتبه الکسای خود را در نوشته‌ها و برگه‌های وردپرس نمایش دهید.
@@ -29,3 +34,5 @@ LocalCountryName :: [swa_alexa_country_name]
 
 # حمایت مالی از افزونه 
 [حمایت مالی از افزونه](https://farhad.in/donate/)
+=======
+>>>>>>> b4f9a0f983ffd8131449f1144ccbd966c54e720d
