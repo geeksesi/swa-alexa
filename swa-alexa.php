@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin name: SWA-Alexa
-Plugin URI: https://sahandwebafzar.ir/products/swa-alexa/
-Description: افزونه‌ای برای نمایش رتبه الکسا
+Plugin URI: https://Farhad.in/swa-alexa/
+Description: افزونه‌ای برای نمایش رتبه الکسا در نوشته‌ها و برگه‌های وردپرس
 Version: 1.0.0
-Author: فرهاد حسن پور
-Author URI: http://Farhad.in/
+Author: Farhad Hassan Pour
+Author URI: https://Farhad.in/
  */
 defined('ABSPATH') || exit('No Direct Access.');
 define('SWA_ALEXA_DIR', plugin_dir_path(__FILE__));
@@ -16,6 +16,11 @@ define('SWA_ALEXA_IMG_URL', trailingslashit(SWA_ALEXA_URL.'assets/img'));
 define('SWA_ALEXA_INC_DIR', trailingslashit(SWA_ALEXA_DIR.'include'));
 define('SWA_ALEXA_ADMIN_DIR', trailingslashit(SWA_ALEXA_DIR.'admin'));
 define('SWA_ALEXA_TPL_DIR', trailingslashit(SWA_ALEXA_DIR.'template'));
+
+add_action('plugins_loaded', 'wan_load_textdomain');
+function wan_load_textdomain() {
+	load_plugin_textdomain( 'swa-alexa', false, dirname( plugin_basename(__FILE__) ) . '/languages/' );
+}
 
 require SWA_ALEXA_INC_DIR.'shortcodes.php';
 require SWA_ALEXA_INC_DIR.'frontend.php';
