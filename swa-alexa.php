@@ -2,10 +2,11 @@
 /*
 Plugin name: SWA-Alexa
 Plugin URI: https://Farhad.in/swa-alexa/
-Description: افزونه‌ای برای نمایش رتبه الکسا در نوشته‌ها و برگه‌های وردپرس
+Description: Its a wordpress plugin to show your websites alexa rank in posts and pages.
 Version: 1.0.0
 Author: Farhad Hassan Pour
 Author URI: https://Farhad.in/
+Text Domain: swa-alexa
  */
 defined('ABSPATH') || exit('No Direct Access.');
 define('SWA_ALEXA_DIR', plugin_dir_path(__FILE__));
@@ -29,6 +30,5 @@ if(is_admin()){
 
 	require_once SWA_ALEXA_ADMIN_DIR.'page.php';
 	require_once SWA_ALEXA_ADMIN_DIR.'menu.php';
-	require SWA_ALEXA_INC_DIR.'backend.php';
 
 }

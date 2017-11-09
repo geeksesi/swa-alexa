@@ -1,25 +1,26 @@
 <div class="wrap">
-<<<<<<< HEAD
-    <h2><?php _e('مدیریت افزونه رتبه الکسا', 'swa_alexa'); ?></h2>
-    <p>شما می‌توانید توسط شورت‌کدهای این افزونه در نوشته‌ها و برگه‌ها رتبه الکسای سایت خود را نمایش دهید.</p>
-    <h3>نمایش رتبه کشوری</h3>
-    <p>برای نمایش رتبه کشوری از شورت کد <code>[swa_alexa_country]</code> استفاده کنید.</p>
-    <h3>نمایش رتبه جهانی</h3>
-    <p>برای نمایش رتبه جهانی از شورت کد <code>[swa_alexa_country_global]</code> استفاده کنید.</p>
-    <h3>نمایش اسم کشور</h3>
-    <p>برای نمایش اسم کشوری که در آن رتبه کشوری کسب کردید از شورت کد <code>[swa_alexa_country_name]</code> استفاده کنید.</p>
+    <h2><?php _e('Alexa rank plugin', 'swa-alexa'); ?></h2>
+    <p><?php _e('Its a wordpress plugin to show your websites alexa rank in posts and pages.', 'swa-alexa'); ?></p>
     <hr>
-    <h2>درباره افزونه</h2>
+    <?php
+    $source = simplexml_load_file('http://data.alexa.com/data?cli=10&url='.get_site_url());
+    ?>
+    <p><?php _e('Your local rank is ', 'swa-alexa'); ?><strong>(<?php echo $source->SD->COUNTRY['RANK']; ?>)</strong> <?php _e('and your global rank is ', 'swa-alexa'); ?><strong>(<?php echo $source->SD->POPULARITY['TEXT']; ?>)</strong> <?php _e('and your local country name is ', 'swa-alexa'); ?><strong>(<?php echo $source->SD->COUNTRY['NAME']; ?>)</strong> </p>
+    <hr>
+    <h3><?php _e('View local rank', 'swa-alexa') ?></h3>
+    <p><?php _e('shortcode: <code>[swa_alexa_country]</code>', 'swa-alexa') ?></p>
+    <h3><?php _e('View global rank', 'swa-alexa') ?></h3>
+    <p><?php _e('shortcode: <code>[swa_alexa_country_global]</code>', 'swa-alexa') ?></p>
+    <h3><?php _e('View local country name', 'swa-alexa') ?></h3>
+    <p><?php _e('shortcode: <code>[swa_alexa_country_name]</code>', 'swa-alexa') ?></p>
+    <hr>
+    <h2><?php _e('About plugin', 'swa-alexa') ?></h2>
     <p>
-        <strong>نویسنده افزونه: </strong> <a href="https://farhad.in" target="_blank">فرهاد حسن پور</a> <br>
-        <strong>نسخه افزونه: </strong> 1.0.0 <br>
-        <strong>سورس افزونه: </strong> <a href="https://github.com/SahandWebAfzar/swa-alexa" target="_blank">گیت‌هاب</a> <br>
-        <strong>حمایت مالی: </strong> <a href="https://farhad.in/donate/" target="_blank">برای تداوم بروز رسانی و پروژه‌های رایگان لطفا حمایت مالی کنید.</a> <br>
-        <strong>کاری از تیم برنامه نویسی <a href="http://sahandwebafzar.ir" target="_blank">سهند‌وب‌افزار</a>.</strong>
+        <strong><?php _e('Plugin author: ', 'swa-alexa') ?> </strong> <a href="https://farhad.in" target="_blank"><?php _e('Farhad Hassan Pour', 'swa-alexa') ?></a> <br>
+        <strong><?php _e('Plugin verison: ', 'swa-alexa') ?> </strong> <?php _e('1.0.0', 'swa-alexa') ?> <br>
+        <strong><?php _e('Plugin source: ', 'swa-alexa') ?></strong> <a href="https://github.com/SahandWebAfzar/swa-alexa" target="_blank"><?php _e('Github', 'swa-alexa') ?></a> <br>
+        <strong><?php _e('Donate: ', 'swa-alexa') ?></strong> <a href="<?php _e('https://farhad.in/donate/', 'swa-alexa') ?>" target="_blank"><?php _e('Please donate', 'swa-alexa') ?></a> <br>
+        <strong><?php _e('Team name: ', 'swa-alexa') ?><a href="http://sahandwebafzar.ir" target="_blank"><?php _e('Sahand Web Afzar', 'swa-alexa') ?></a>.</strong>
     </p>
     <hr>
-=======
-
-    <h2><?php _e('Manage Alexa Rank plugin', 'swa_alexa'); ?></h2>
->>>>>>> b4f9a0f983ffd8131449f1144ccbd966c54e720d
 </div>
