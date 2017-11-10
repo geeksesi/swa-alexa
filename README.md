@@ -1,31 +1,47 @@
-# swa-alexa
-wordpress alexa Dashbord plugin
-# About plugin
-it's a wordpress plugin to show your website's alexa rank 
-# installation
-* install from wordpressPlugin : [Coming Soon](https://wordpress.org/plugins/)
-* [download](https://github.com/SahandWebAfzar/swa-alexa/archive/master.zip) from Github, extract and copy plugin to `wp-content/plugins` and active plugin from `wordpress > adminPanel > plugins`
-# usage 
-in every where in wordpress can call Three shorteCode to show your GlobalRank, LocalRank, LocalCountryName by this tags:
-```
-GlobalRank       :: [swa_alexa_country_global]
-LocalRank        :: [swa_alexa_country]
-LocalCountryName :: [swa_alexa_country_name]
-```
-# created by
-[Sahand Web Afzar](https://sahandwebafzar.ir/)
-# License 
+===  swa-alexa ===
+Contributors: farhadhp
+Donate link: https://farhad.in/donate
+Tags: alexa, alexa rank, alexa short code
+Tested up to: 4.8.3
+Requires at least: 3.9
+Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-# افزونه وردپرس نمایش رتبه الکسا در نوشته‌ها و برگه‌ها 
-توسط این افزونه می‌تونید رتبه الکسای خود را در نوشته‌ها و برگه‌های وردپرس نمایش دهید.
+Its a wordpress plugin to show your websites alexa rank in posts and pages.
 
-# آموزش استفاده
-برای استفاده از شورت کدهای زیر استفاده کنید.
-```
-نمایش رتبه بین المللی       :: [swa_alexa_country_global]
-نمایش رتبه کشوری        :: [swa_alexa_country]
-نمایش اسم کشوری که در آن رتبه کشوری اخذ کردید :: [swa_alexa_country_name]
-```
+== Description ==
 
-# حمایت مالی از افزونه 
-[حمایت مالی از افزونه](https://farhad.in/donate/)
+Its a wordpress plugin to show your websites alexa rank in posts and pages.
+
+Features include:
+
+*   easy to use
+*	Show your web site alexa rank
+
+== Installation ==
+
+You can install swa-alexa by either using wordpress.org plugin directory, or by directly uploading plugin files to your server.
+
+== shortcodes ==
+
+= Local rank
+
+`[swa_alexa_country]`
+
+= Global rank
+
+`[swa_alexa_country_global]`
+
+= Local country name
+
+`[swa_alexa_country_name]`
+
+== Screenshots ==
+
+1. Preview of swa-alexa's Admin Page
+2. Preview of swa-alexa's demo Page
+
+== Changelog ==
+
+

@@ -18,8 +18,8 @@ define('SWA_ALEXA_INC_DIR', trailingslashit(SWA_ALEXA_DIR.'include'));
 define('SWA_ALEXA_ADMIN_DIR', trailingslashit(SWA_ALEXA_DIR.'admin'));
 define('SWA_ALEXA_TPL_DIR', trailingslashit(SWA_ALEXA_DIR.'template'));
 
-add_action('plugins_loaded', 'wan_load_textdomain');
-function wan_load_textdomain() {
+add_action('plugins_loaded', 'farhad_swa_wan_load_textdomain');
+function farhad_swa_wan_load_textdomain() {
 	load_plugin_textdomain( 'swa-alexa', false, dirname( plugin_basename(__FILE__) ) . '/languages/' );
 }
 
