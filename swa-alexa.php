@@ -14,9 +14,6 @@ define('SWA_ALEXA_URL', plugin_dir_url(__FILE__));
 define('SWA_ALEXA_CSS_URL', trailingslashit(SWA_ALEXA_URL.'assets/css'));
 define('SWA_ALEXA_JS_URL', trailingslashit(SWA_ALEXA_URL.'assets/js'));
 define('SWA_ALEXA_IMG_URL', trailingslashit(SWA_ALEXA_URL.'assets/img'));
-define('SWA_ALEXA_INC_DIR', trailingslashit(SWA_ALEXA_DIR.'include'));
-define('SWA_ALEXA_ADMIN_DIR', trailingslashit(SWA_ALEXA_DIR.'admin'));
-define('SWA_ALEXA_TPL_DIR', trailingslashit(SWA_ALEXA_DIR.'template'));
 
 add_action('plugins_loaded', 'farhad_swa_wan_load_textdomain');
 function farhad_swa_wan_load_textdomain() {
@@ -63,7 +60,7 @@ if(is_admin()){
 
 	function swa_alexa_main_page(){
 ?>
-				<div class="wrap">
+		<div class="wrap">
 			<h2><?php _e('Alexa rank plugin', 'swa-alexa'); ?></h2>
 			<p><?php _e('Its a wordpress plugin to show your websites alexa rank in posts and pages.', 'swa-alexa'); ?></p>
 			<hr>
@@ -81,11 +78,11 @@ if(is_admin()){
 			<hr>
 			<h2><?php _e('About plugin', 'swa-alexa') ?></h2>
 			<p>
-				<strong><?php _e('Plugin author: ', 'swa-alexa') ?> </strong> <a href="https://farhad.in" target="_blank"><?php _e('Farhad Hassan Pour', 'swa-alexa') ?></a> <br>
-				<strong><?php _e('Plugin verison: ', 'swa-alexa') ?> </strong> <?php _e('1.0.0', 'swa-alexa') ?> <br>
-				<strong><?php _e('Plugin source: ', 'swa-alexa') ?></strong> <a href="https://github.com/SahandWebAfzar/swa-alexa" target="_blank"><?php _e('Github', 'swa-alexa') ?></a> <br>
-				<strong><?php _e('Donate: ', 'swa-alexa') ?></strong> <a href="<?php _e('https://farhad.in/donate/', 'swa-alexa') ?>" target="_blank"><?php _e('Please donate', 'swa-alexa') ?></a> <br>
-				<strong><?php _e('Team name: ', 'swa-alexa') ?><a href="http://sahandwebafzar.ir" target="_blank"><?php _e('Sahand Web Afzar', 'swa-alexa') ?></a>.</strong>
+				<strong><?php _e('Plugin author: ', 'swa-alexa') ?> </strong> <a href="http://farhadhp.ir/" target="_blank"><?php _e('Farhad Hassan Pour', 'swa-alexa') ?></a> <br>
+				<strong><?php _e('Plugin verison: ', 'swa-alexa') ?> </strong> <?php _e('2.0.0', 'swa-alexa') ?> <br>
+				<strong><?php _e('Plugin source: ', 'swa-alexa') ?></strong> <a href="https://github.com/Domain-Host/swa-alexa" target="_blank"><?php _e('Github', 'swa-alexa') ?></a> <br>
+				<strong><?php _e('Donate: ', 'swa-alexa') ?></strong> <a href="<?php _e('http://farhadhp.ir/donate/', 'swa-alexa') ?>" target="_blank"><?php _e('Please donate', 'swa-alexa') ?></a> <br>
+				<strong><?php _e('Team name: ', 'swa-alexa') ?><a href="http://farhadhp.ir/" target="_blank"><?php _e('Sahand Web Afzar', 'swa-alexa') ?></a>.</strong>
 			</p>
 			<hr>
 		</div>
