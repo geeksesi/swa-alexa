@@ -25,15 +25,15 @@ You can install swa-alexa by either using wordpress.org plugin directory, or by 
 
 == shortcodes ==
 
-= Local rank
+= Local rank =
 
 `[swa_alexa_country]`
 
-= Global rank
+= Global rank =
 
 `[swa_alexa_country_global]`
 
-= Local country name
+= Local country name =
 
 `[swa_alexa_country_name]`
 
